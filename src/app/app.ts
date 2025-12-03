@@ -11,33 +11,34 @@ import { RouterOutlet } from '@angular/router';
 export class App implements OnInit, OnDestroy {
   protected readonly slides = [
     {
-      eyebrow: 'E-facturation B2B - Cote d\'Ivoire',
-      title: 'Protegez vos flux, une facture a la fois.',
+      eyebrow: 'FNE - Facturation Electronique CI',
+      title: 'Un partenaire unique pour votre mise en conformite FNE.',
       lede:
-        'Orchestration complete : analyse, integration PPF/PDP, conduite du changement et support run pour des go-live rapides et conformes.',
+        'Diagnostic, inscription, paramétrage (logo, timbre, stickers) et conduite du changement, avec un logiciel de facturation conforme FNE inclus.',
       cards: [
-        { label: 'Notre bureau', strong: 'Plateau, Abidjan', note: 'Visites sur rendez-vous' },
-        { label: 'Contact direct', strong: '+225 07 00 00 00 00', note: 'contact@fne-ci.com' },
+        { label: 'Support hotline', strong: '+225 07 08 77 13 17 / +225 07 77 88 08 85', note: 'Appel direct' },
+        { label: 'Integrations API', strong: 'ERP & apps internes', note: 'Connexion FNE + logiciel' },
       ],
     },
     {
       eyebrow: 'Integration rapide',
-      title: 'Connectez vos ERP aux plateformes PPF / PDP.',
+      title: 'Connectez vos outils a la FNE et a notre logiciel conforme.',
       lede:
-        'Connecteurs API, certificats, signature et archivage probant. Pilote controle puis bascule progressive.',
+        'Inscription FNE, OTP, changement de mot de passe, interfaçage ERP/API et paramétrage des établissements et caisses.',
       cards: [
-        { label: 'ERP couverts', strong: 'SAP, Dynamics, Odoo', note: 'Portails clients sur mesure' },
-        { label: 'Equipe', strong: 'Finance + IT', note: 'Chef de projet dedie' },
+        { label: 'Support hotline', strong: '+225 07 08 77 13 17 / +225 07 77 88 08 85', note: 'Appel direct' },
+        { label: 'Integrations API', strong: 'ERP & apps internes', note: 'Connexion FNE + logiciel' },
       ],
     },
     {
       eyebrow: 'Support et evolution',
-      title: 'Maintenez la conformite dans la duree.',
+      title: 'Maintenez la conformite et faites evoluer vos flux.',
       lede:
-        'Surveillance des rejets, mises a jour legales, hotline prioritaire et accompagnement des equipes internes.',
+        'Surveillance des rejets, achats de stickers, mises a jour FNE, hotline prioritaire et evolutions de votre logiciel de facturation.',
       cards: [
+        { label: 'Support hotline', strong: '+225 07 08 77 13 17 / +225 07 77 88 08 85', note: 'Appel direct' },
         { label: 'Run', strong: 'Monitoring 24/7', note: 'KPIs et reporting mensuel' },
-        { label: 'Formation', strong: 'Finance & ventes', note: 'Sessions live et replays' },
+        { label: 'Logiciel', strong: 'Facturation FNE', note: 'Licences et mises a jour' },
       ],
     },
   ];

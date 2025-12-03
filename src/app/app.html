@@ -27,7 +27,7 @@
           <p class="lede">
             {{ slide.lede }}
           </p>
-          <div class="hero__cta-cards">
+          <div class="hero__cta-cards hero__cta-cards--row">
             <div class="cta-card" *ngFor="let card of slide.cards">
               <p class="label">{{ card.label }}</p>
               <strong>{{ card.strong }}</strong>
@@ -55,26 +55,26 @@
   <section class="services">
     <article class="service-card">
       <div class="service-card__top">
-        <h3>Conception des flux</h3>
+        <h3>Conception FNE</h3>
         <div class="service-card__num">05</div>
       </div>
-      <p>Design des flux e-facture, numerotation, validations et piste d'audit fiable.</p>
+      <p>Design des flux FNE, numerotation, validations, exigences OTP et piste d'audit fiable pour vos factures.</p>
       <a class="link" href="#approche">Voir details</a>
     </article>
     <article class="service-card">
       <div class="service-card__top">
-        <h3>Integration PPF/PDP</h3>
+        <h3>Integration FNE</h3>
         <div class="service-card__num">06</div>
       </div>
-      <p>Connecteurs API, certificats, signature, archivage probant et tests bout en bout.</p>
+      <p>Inscription FNE, OTP, paramétrage logo/timbre/stickers, connexion ERP ou outil metier via API.</p>
       <a class="link" href="#services">Voir details</a>
     </article>
     <article class="service-card">
       <div class="service-card__top">
-        <h3>Accompagnement equipes</h3>
+        <h3>Logiciel conforme</h3>
         <div class="service-card__num">07</div>
       </div>
-      <p>Formation finance/vente/IT, support terrain et conduite du changement.</p>
+      <p>Logiciel de facturation conforme FNE (factures, recus, avoirs, proforma, bordereaux), adapte a vos processus.</p>
       <a class="link" href="#services">Voir details</a>
     </article>
     <article class="service-card">
@@ -82,7 +82,7 @@
         <h3>Support run</h3>
         <div class="service-card__num">08</div>
       </div>
-      <p>Monitoring des rejets, mises a jour reglementaires et hotline prioritaire.</p>
+      <p>Monitoring des rejets, achats de stickers, mises a jour FNE, hotline prioritaire et support TERNE.</p>
       <a class="link" href="#contact">Voir details</a>
     </article>
   </section>
@@ -90,22 +90,22 @@
   <section class="section" id="expertises">
     <div class="section__header">
       <p class="eyebrow">Nos expertises</p>
-      <h2>Un trio finance, technique et juridique pour des go-live sans friction.</h2>
+      <h2>Un trio finance, technique et juridique pour deployer FNE et le logiciel sans friction.</h2>
     </div>
     <div class="grid grid--cards">
       <article class="card">
         <h3>Diagnostic et gouvernance</h3>
-        <p>Cartographie des flux, evaluation des risques, cadrage des jalons et des responsabilites.</p>
+        <p>Cartographie FNE, evaluation des risques, plan d'inscription/OTP, jalons de conformite et donnees requises.</p>
         <div class="tag">30-60-90 jours</div>
       </article>
       <article class="card">
         <h3>Integration et homologation</h3>
-        <p>Connecteurs PPF/PDP, API, certificats, signature, archivage probant et tests bout en bout.</p>
+        <p>Connecteurs FNE/API, certificats, signature, archivage probant, paramétrage logo/stickers/timbre, tests bout en bout.</p>
         <div class="tag">Pilote controle</div>
       </article>
       <article class="card">
-        <h3>Run et support</h3>
-        <p>Monitoring des rejets, mises a jour reglementaires, hotline prioritaire, reporting de performance.</p>
+        <h3>Logiciel + run</h3>
+        <p>Logiciel de facturation conforme FNE, gestion etablissement/point de vente/utilisateurs, stickers, OTP et support prioritaire.</p>
         <div class="tag">SLA 4h</div>
       </article>
     </div>
@@ -114,11 +114,11 @@
   <section class="section ribbon">
     <div class="ribbon__content">
       <p class="eyebrow">Solution complete</p>
-      <h3>Une offre pack signee FNE pour respecter les delais legaux.</h3>
-      <p>Equipe senior finance + IT + juridique, un seul pilote de bout en bout.</p>
+      <h3>Pack FNE : accompagnement + logiciel conforme.</h3>
+      <p>Equipe senior finance + IT + juridique, logiciel fourni et pilote de bout en bout (inscription, OTP, paramétrage, stickers).</p>
       <div class="ribbon__bullets">
-        <span class="chip">PDP / PPF</span>
-        <span class="chip">Conformite legale</span>
+        <span class="chip">Connecteurs FNE</span>
+        <span class="chip">Logiciel certifie</span>
         <span class="chip">Support post-go-live</span>
       </div>
     </div>
@@ -141,44 +141,80 @@
   <section class="section" id="approche">
     <div class="section__header">
       <p class="eyebrow">Approche</p>
-      <h2>Un parcours clair en 4 phases, avec jalons valides.</h2>
+      <h2>Un parcours clair en 4 phases, aligne sur le guide FNE.</h2>
     </div>
     <div class="timeline">
       <div class="step">
         <div class="step__badge">01</div>
         <div>
           <h3>Diagnostic</h3>
-          <p>Audit SI, cartographie flux, score de risque et plan d'attaque priorise.</p>
+          <p>Audit SI, cartographie flux FNE, donnees NCC/NTD, risques et plan d'inscription + OTP.</p>
         </div>
       </div>
       <div class="step">
         <div class="step__badge">02</div>
         <div>
           <h3>Architecture</h3>
-          <p>Design cible PPF/PDP, mapping donnees, securite, plan de tests.</p>
+          <p>Design cible FNE, mapping donnees, logo/stickers/timbre, interfaçage logiciel/ERP, plan de tests.</p>
         </div>
       </div>
       <div class="step">
         <div class="step__badge">03</div>
         <div>
           <h3>Pilote</h3>
-          <p>Cas clients prioritaires, correction des rejets, go/no-go documente.</p>
+          <p>Cas clients prioritaires, correction des rejets, achats stickers, go/no-go documente sur la plateforme.</p>
         </div>
       </div>
       <div class="step">
         <div class="step__badge">04</div>
         <div>
           <h3>Deploiement & run</h3>
-          <p>Formation, bascule controlee, monitoring, support et mises a jour.</p>
+          <p>Formation, bascule controlee, monitoring OTP/stickers, support TERNE et mises a jour FNE + logiciel.</p>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="section checklist" id="parcours">
+    <div class="section__header">
+      <p class="eyebrow">Parcours FNE officiel</p>
+      <h2>Nous gérons pour vous les étapes du guide utilisateur FNE.</h2>
+    </div>
+    <div class="grid grid--cards">
+      <article class="card">
+        <h3>Inscription et acces</h3>
+        <ul class="list checklist__list">
+          <li>Site fne.dgi.gouv.ci, bouton inscription.</li>
+          <li>Formulaire NCC + NTD, infos entreprise, localisation (section/parcelle ou lot/ilot ou GPS).</li>
+          <li>Infos techniques de facturation, validation CGU, mail de confirmation.</li>
+          <li>Connexion initiale avec identifiants, OTP obligatoire, changement de mot de passe (12 car., majuscule, minuscule, chiffre, special).</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Parametrage et structure</h3>
+        <ul class="list checklist__list">
+          <li>Paramétrage logo, seuil d'alerte stickers, timbre, bordereau agricole, interfaçage logiciel FNE.</li>
+          <li>Creation etablissements secondaires.</li>
+          <li>Creation points de vente (caisses) et choix outil (appli FNE ou TERNE, ID TERNE requis).</li>
+          <li>Creation utilisateurs rattaches a un etablissement et un point de vente, habilitations definies.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Facturation et stickers</h3>
+        <ul class="list checklist__list">
+          <li>Achat de stickers (mobile money ou carte), suivi consommation.</li>
+          <li>Emission factures/recus (B2B NCC client auto, B2C/B2F/B2G saisie infos, QR code, numero serie).</li>
+          <li>Gestion taxes (TVA 0/9/18, exo, taxes additionnelles), remises, avoirs.</li>
+          <li>Tableau de bord et reporting (factures/recus emis et recus, timbres, stickers).</li>
+        </ul>
+      </article>
     </div>
   </section>
 
   <section class="section section--alt" id="services">
     <div class="section__header">
       <p class="eyebrow">Services</p>
-      <h2>Des offres qui s'adaptent a vos equipes et a vos delais.</h2>
+      <h2>Des offres qui combinent accompagnement FNE et logiciel conforme.</h2>
     </div>
     <div class="grid grid--offers">
       <article class="offer">
@@ -188,20 +224,21 @@
           <p class="price">Offert - edition limitee</p>
         </div>
         <ul class="list">
-          <li>Audit conformite et cartographie SI.</li>
+          <li>Audit conformite FNE et cartographie SI.</li>
           <li>Roadmap priorisee 30/60/90 jours.</li>
-          <li>Kit de procedures internes.</li>
+          <li>Kit de procedures internes FNE.</li>
         </ul>
         <a class="button button--ghost" href="#contact">Demarrer</a>
       </article>
       <article class="offer offer--featured">
         <div class="offer__head">
           <p class="eyebrow">Programme complet</p>
-          <h3>Integration + conduite du changement</h3>
+          <h3>Integration + logiciel + conduite du changement</h3>
           <p class="price">Chef de projet dedie</p>
         </div>
         <ul class="list">
-          <li>Connexion PPF/PDP et integration ERP.</li>
+          <li>Connexion FNE et integration ERP.</li>
+          <li>Logiciel de facturation conforme inclus.</li>
           <li>Tests bout en bout, homologation.</li>
           <li>Formation finance, compta, ventes.</li>
           <li>Support sur site ou hybride.</li>
@@ -215,8 +252,8 @@
           <p class="price">Abonnement mensuel</p>
         </div>
         <ul class="list">
-          <li>Monitoring rejets et corrections.</li>
-          <li>Mises a jour reglementaires.</li>
+          <li>Monitoring rejets et corrections FNE.</li>
+          <li>Mises a jour reglementaires et logicielles.</li>
           <li>Hotline prioritaire + reporting.</li>
         </ul>
         <a class="button button--ghost" href="#contact">Parler support</a>
@@ -241,7 +278,7 @@
   <section class="section" id="faq">
     <div class="section__header">
       <p class="eyebrow">FAQ</p>
-      <h2>Les questions que vos equipes posent.</h2>
+      <h2>Les questions sur la FNE et le logiciel.</h2>
     </div>
     <div class="grid grid--faq">
       <div class="faq__item">
@@ -250,7 +287,7 @@
       </div>
       <div class="faq__item">
         <h3>Peut-on garder nos PDF actuels ?</h3>
-        <p>Oui, nous gerons XML et signature pour PPF/PDP tout en conservant vos PDF metier.</p>
+        <p>Oui, nous gerons XML FNE et signature tout en conservant vos PDF metier.</p>
       </div>
       <div class="faq__item">
         <h3>Intervention sur site ?</h3>
@@ -258,7 +295,7 @@
       </div>
       <div class="faq__item">
         <h3>Qui gere la conformite legale ?</h3>
-        <p>Partenariat avec juristes locaux pour valider la piste d'audit fiable et l'archivage.</p>
+        <p>Partenariat avec juristes locaux pour valider la piste d'audit fiable, l'archivage et le logiciel conforme.</p>
       </div>
     </div>
   </section>
@@ -271,8 +308,8 @@
         <p>Partagez volumes, outils et contraintes : nous revenons en 24h avec une feuille de route.</p>
       </div>
       <div class="contact__actions">
-        <a class="button button--primary" href="mailto:contact@fne-ci.com">contact@fne-ci.com</a>
-        <a class="button button--outline" href="tel:+2250700000000">+225 07 00 00 00 00</a>
+        <a class="button button--primary" href="tel:+2250708771317">+225 07 08 77 13 17</a>
+        <a class="button button--outline" href="tel:+2250777880885">+225 07 77 88 08 85</a>
       </div>
     </div>
   </section>
